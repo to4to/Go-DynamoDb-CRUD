@@ -21,3 +21,17 @@ func NewRouter() *Router {
 func (r *Router) SetRouters() *chi.Mux {}
 
 func (r *Router) setConfigsRouter() {}
+
+func RouterHealth() {}
+
+func RouterProduct() {}
+
+func EnableTimeout() {}
+
+func EnableCORS() {}
+
+func EnableRecovery() {}
+
+func EnableRequestID() {}
+
+func EnableRealIP() {}
